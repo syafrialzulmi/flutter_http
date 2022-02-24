@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_http/delete_page.dart';
+import 'package:flutter_http/future_builder.dart';
 import 'package:flutter_http/get_page.dart';
 import 'package:flutter_http/post_page.dart';
 import 'package:flutter_http/put_patch_page.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: DeletePage(),
+      home: FutureBuilderPage(),
     );
   }
 }
