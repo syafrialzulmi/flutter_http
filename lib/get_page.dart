@@ -26,7 +26,7 @@ class _GetPageState extends State<GetPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('HTTP Request'),
+        title: Text('GET - HTTP Request'),
       ),
       body: Center(
         child: Column(
